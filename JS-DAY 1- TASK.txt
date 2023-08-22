@@ -1,0 +1,19 @@
+Q. Write a blog on Difference between HTTP1.1 vs HTTP2.
+
+A. HTTP/1.1 processes one request at a time over a connection, causing delays. HTTP/2 supports concurrent requests using multiplexing, 
+compresses headers, allows server push, and prioritizes streams, resulting in quicker page loads and improved efficiency.
+
+Q. Write a blog about objects and its internal representation in Javascript.
+
+A. Objects are a fundamental construct in JavaScript, acting as containers for key-value pairs that facilitate the organization and storage of data. 
+Beneath their surface, understanding how objects are internally represented is crucial for efficient programming. 
+In JavaScript, objects are essentially dynamic collections of properties and methods. 
+These properties can be primitive values, other objects, or functions. 
+The internal representation of objects involves a combination of hash maps and prototypes. Hash maps allow quick access to properties, 
+while prototypes enable inheritance and the sharing of properties and methods between objects.
+
+JavaScript's flexible nature allows developers to add, modify, or delete properties at runtime. This dynamic feature, while powerful, 
+demands careful consideration to manage memory efficiently and avoid unintended side effects. When working with objects, understanding their internal representation empowers developers to optimize code performance and maintain clean,
+organized data structures.
+
+
